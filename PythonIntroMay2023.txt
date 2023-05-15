@@ -4,20 +4,21 @@ Python Introduction May 2023
 Toby Dussek 
 
 9:30  start
-11:00 coffee
+11:00 coffee until 11:15
 12:30 lunch
 3:00  tea
 4:30  end
 
 Course Website: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python_May_23/site/index.html
-
+Code Repo
+https://github.com/onionmccabbage/pythonMay2023
  
 Monday
-- Welcome
-- where to write code: immediate and module (just a file)
+> Welcome
+> where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
-- overview of Python 3 (and Python 2)
+> overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
 - print() and input()
 - maths operators and data types
