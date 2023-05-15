@@ -14,12 +14,23 @@ def power(m, n):
        The triple-quotes allows the use of new lines in your documentation"""
     return m**n # we can just return a value
 
-# user input
+# user input. CAREFUL every user input will be a string
+def userInput():
+    num = input('please enter a number: ')
+    num_i = int( float(num) ) # good idea to FIRST cast as a float, THEN as an int
+    # maybe we need to validate the number
+    # conditional logic, validation and type casting
+    if num_i >0 and num_i < 10: # >= <= !=
+        print(num_i, type(num_i))
+    elif num_i == 0: # optional elif clause (might be several 'elif')
+        print('sorry we cannot handle zero at this time')
+    else:
+        print('number needs to be between 0 and 10')
 
 # range and generators
-
-# conditional logic, validation and type casting
-
+def checkNumber(x):
+    r = range(0, 15) # start, stop-before, step
+    return x in r # does the number exist in the range?
 
 
 # double-equals will CHECK equality (single equals will SET equality)
@@ -29,3 +40,5 @@ if __name__ == '__main__': # this is good practice
     print( power(2, 3) )   # 8
     print( power(4, 2) )   # 16
     print( power(9, 4) )   # 6561
+    userInput() # note it takes no arguments
+    print( checkNumber(3) ) # check if 3 is in the range(0-15) (0 to 14)
