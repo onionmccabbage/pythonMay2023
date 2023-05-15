@@ -21,6 +21,4 @@ entering -2 offers hints: is it even, is it odd, is it a square or prime number?
 here is a tuple of primes
 primes_t = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97)
 
-Mybe ask the user for the game difficulty (0-100, 0-1000 etc.)
-Maybe tell them how many guesses they took to get it right
-
+Maybe ask the user for the game difficulty (0-100, 0-1000 etc.)
