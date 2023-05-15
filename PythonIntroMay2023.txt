@@ -3,11 +3,15 @@ Python Introduction May 2023
 
 Toby Dussek 
 
-9:30 start
-10:45 coffee
-12:00 lunch
-2:45 tea
-4:30 end
+9:30  start
+11:00 coffee
+12:30 lunch
+3:00  tea
+4:30  end
+
+Course Website: 
+https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python_May_23/site/index.html
+
 
 Monday
 - Welcome
@@ -90,3 +94,9 @@ Links
 - Python official site https://python.org
 - PEP8 style guide https://www.python.org/dev/peps/pep-0008/
 - online Python interpreter https://repl.it/languages/Python3
+
+
+
+https://easyretro.io/publicboard/NTDqkkm6utgJFD9cdBrdb4sI6n72/25b24b80-280e-44c2-b02b-6694cfaa328f
+https://apps.powerapps.com/play/17579985-153c-4727-b1f4-8b53e48b5e72?tenantId=92e84ceb-fbfd-47ab-be52-080c6b87953f&Type=ILT&ID=LD_ADHOC_MELA_1588&OID=508289&Title=Programming%20in%20Python&Owner=Sachin%20Srivastava%20B
+
