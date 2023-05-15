@@ -12,10 +12,10 @@ Toby Dussek
 Course Website: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python_May_23/site/index.html
 
-
+ 
 Monday
 - Welcome
-- where to write code: immediate and module
+- where to write code: immediate and module (just a file)
   Pycharm or VSCode or ...
 - overview of Python 3 (and Python 2)
 - architecture, structure, and professional code best practice
