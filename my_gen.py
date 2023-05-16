@@ -20,6 +20,13 @@ def createLists():
     squares_list = [ num*num for num in range(1,101) ]
     print(squares_list)
 
+def createTuple():
+    # first we make a generator
+    g = ( num/4 for num in range(-25, 26) )
+    # then we make a tuple
+    t = tuple(g)
+    return t
+
 def makeGen():
     # we can make a generator (instead of a list or tuple)
     even_generator = ( num for num in range(-100, 101) if num%2 == 0 ) # or step 2
@@ -32,9 +39,12 @@ def makeGen():
     for _ in even_generator: # the generator will remember the position it got to
         print( _, end=', ' )
 
-    print( even_generator.__next__() ) # NOPE - the generator has ben exhausted!!
+    # print( even_generator.__next__() ) # NOPE - the generator has ben exhausted!!
 
 if __name__ == '__main__':
     useRange()
     createLists()
     makeGen()
+    # see our generated tuple in action
+    result_t = createTuple()
+    print( type(result_t), result_t )
