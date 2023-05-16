@@ -38,10 +38,10 @@ Monday
 > type and type conversion
 > validate input before casting it
 > string manipulation
-- Lists, Tuples and nested collections
+> Lists, Tuples and nested collections
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
+> import, pip, libraries and modules
 > very big numeric values
 > += etc.
 > pep8 coding style suggestions for Python
@@ -58,10 +58,10 @@ Tuesday
 > functions, *args, **kwargs  
 > also, passing command-line arguments (which are ALWAYS strings)
 - custom generator and yield
-- to add libraries to python:
-  - python -m ensurepip
-  - python –m pip install requests (or any other library you need)
-- requests
+> to add libraries to python:
+  > python -m ensurepip
+  > python –m pip install requests (or any other library you need)
+> requests
 - overview of testing
 > strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
