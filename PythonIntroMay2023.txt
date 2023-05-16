@@ -6,7 +6,7 @@ Toby Dussek
 9:30  start
 11:00 coffee until 11:15
 12:30 lunch
-3:00  tea
+3:00  tea until 3:15
 4:30  end
 
 Course Website: 
@@ -23,7 +23,7 @@ Monday
   python 2 print does not need brackets
   python 2 division is type-dependant, so int division ALWAYS gives an int. 2/5 is 2
   both 2 and 3 support multi-threading and multi-processing
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > the if statement for conditional logic
@@ -32,7 +32,7 @@ Monday
 > immutable strings
 > print formatting
 > square bracket notation for iterable collections
-- memory efficiency
+> memory efficiency
 > identifiers
 > boolean True and False
 > type and type conversion
@@ -66,7 +66,7 @@ Tuesday
 - architecture: modules __init__.py and __name__ == '__main__'
 - exception handling (try-except etc.)
 - review exercise
-- import path
+> import path
 - overview of testing
 - File input and output
 - read and write binary files (bytes)
