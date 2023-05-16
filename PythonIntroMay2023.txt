@@ -11,6 +11,7 @@ Toby Dussek
 
 Course Website: 
 https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python_May_23/site/index.html
+recordings: username is neueda pwd is c0nygre
 Code Repo
 https://github.com/onionmccabbage/pythonMay2023
  
@@ -32,7 +33,7 @@ Monday
 > print formatting
 > square bracket notation for iterable collections
 - memory efficiency
-- identifiers
+> identifiers
 > boolean True and False
 > type and type conversion
 > validate input before casting it
@@ -43,13 +44,14 @@ Monday
 - import, pip, libraries and modules
 > very big numeric values
 > += etc.
+> pep8 coding style suggestions for Python
 > looping with 'for'
 > if __name__ ...
-- range, generators
 
 Tuesday
-- quick review of where we got to
-- the recordings...
+> quick review of where we got to
+> the recordings... (usr neueda pwd c0nygre)
+- range, generators
 - set comprehension, list compresension, dictionary comprehension
 - by-reference or by-value
 - other kinds of Python: cpython is the default - also jython ipython ironpython
@@ -60,7 +62,7 @@ Tuesday
   - python –m pip install requests (or any other library you need)
 - requests
 - overview of testing
-- strings with triple quotes
+> strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
 - exception handling (try-except etc.)
 - review exercise
