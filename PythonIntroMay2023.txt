@@ -55,7 +55,8 @@ Tuesday
 > set comprehension, list compresension, dictionary comprehension
 - by-reference or by-value
 > other implementations of Python: cpython is the default - also jython ipython ironpython
-- functions, *args, **kwargs  
+> functions, *args, **kwargs  
+> also, passing command-line arguments (which are ALWAYS strings)
 - custom generator and yield
 - to add libraries to python:
   - python -m ensurepip

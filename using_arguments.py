@@ -18,12 +18,14 @@ def useBoth(*args, **kwargs): # the positional arguments MUST come before any ke
        Any keyments end up in a dictionary'''
     print( f'The keword arguments are {args}' )
     for (k, v) in kwargs.items(): # all dictionaries will have an items() method
-        print(f'they keyword {k} has the value {v}')
+        print(f'the keyword {k} has the value {v}')
 
-
+# In Python everythnig is an object, even functions
 
 if __name__ == '__main__':
     # we pass positional arguments
     usePostional(3, 2, 1, 'string', False, None, {})
+    # we can pass keyword arguments
     useKeyword( c=5, z='spacial', b=False, t=(5,4,3,2) )
+    # both postional and keyword arguments
     useBoth('coffee', True, 876, [], useKeyword, 'done', fn=usePostional, prop='anything', d={'drink':'tea'} )
