@@ -62,12 +62,12 @@ Tuesday
   > python -m ensurepip
   > python –m pip install requests (or any other library you need)
 > requests
-- overview of testing
 > strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
 - exception handling (try-except etc.)
 - review exercise
 - import path
+- overview of testing
 - File input and output
 - read and write binary files (bytes)
 
