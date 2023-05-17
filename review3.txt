@@ -9,6 +9,7 @@ Write a 'Weather' class with get/set methods for 'city' and 'description'
 Make the 'city' default to 'Athlone'
 Use the 'requests' library to get data from
   https://api.openweathermap.org/data/2.5/weather?q=athlone&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
+  (this ID will work up to 60 requests a minute)
 When the response comes back, populate an instance of your Weather class
 For this API JSON data, the description will be
   response_dict['weather'][0]['description']
