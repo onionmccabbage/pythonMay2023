@@ -21,4 +21,7 @@ if __name__ == '__main__':
     for u in users:
         print(u)
 
+    # we can see the value of our static property
+    print(User.userCount)
+
 
