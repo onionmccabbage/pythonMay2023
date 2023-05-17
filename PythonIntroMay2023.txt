@@ -87,12 +87,12 @@ Wednesday
 > properties, methods, __str__
 > intrinsic attributes: __doc__ etc.
 > documentation strings (docstring) for classes
-- special operators and overriding
+> special operators and overriding
 > inheritance
 > composition, static and class methods
 - review exercise
 - how to format with certain dp
-- debug tools
+> debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
