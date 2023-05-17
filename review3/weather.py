@@ -1,6 +1,3 @@
-from random import randint
-from datetime import datetime # redundancy
-
 class Weather():
     '''
     The Weather class takes a non-empty string for the description
@@ -44,7 +41,7 @@ if __name__ == '__main__':
     # exercise this module
     w_gen = Weather('Genoa', 'rainy', 9.04)
     w_gal = Weather('Galway', 'windy', 6.70)
-    w_kt = Weather('Kingston', 'sunny', 27.98)
+    w_kt  = Weather('Kingston', 'sunny', 27.98)
    
     print(w_gen)
     print(w_gal)

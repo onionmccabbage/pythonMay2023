@@ -1,11 +1,11 @@
 from weather import Weather
 import requests
 import sys
-import datetime
 
 def getWeather(city='Athlone'):
     key='48f2d5e18b0d2bc50519b58cce6409f1'
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID={key}'
+    # better to try...except and check for status code 200
     resp = requests.get(url)
     resp_dict = resp.json()
     return resp_dict
