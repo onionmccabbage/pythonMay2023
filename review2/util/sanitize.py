@@ -9,7 +9,7 @@ def cleanup(category='users', id=0):
     'id' must be an integer 1-8 inclusive
     '''
     # check we have the expected arguments
-    if 'category' in cat_t:
+    if category.lower() in cat_t: # make sure it is an exact match
         category = category.lower() # force it to lower case
     else:
         category = 'users'

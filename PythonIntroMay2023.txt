@@ -57,25 +57,27 @@ Tuesday
 > other implementations of Python: cpython is the default - also jython ipython ironpython
 > functions, *args, **kwargs  
 > also, passing command-line arguments (which are ALWAYS strings)
-- custom generator and yield
 > to add libraries to python:
   > python -m ensurepip
   > python –m pip install requests (or any other library you need)
 > requests
 > strings with triple quotes
-- architecture: modules __init__.py and __name__ == '__main__'
 > exception handling (try-except etc.)
-- review exercise
+> review exercise
 > import path
-- overview of testing
+> overview of testing
 > File input and output
-- read and write binary files (bytes)
 
 Wednesday
 - brief review so far
+- constant - use ENUM 
+  https://realpython.com/python-enum/#:~:text=Python%27s%20enum%20module%20provides%20the,related%20constants%20as%20enum%20members.
 - functions live in classes, which live in modules which live in packages
-- PEP8 style guide
+- architecture: modules __init__.py and __name__ == '__main__'
+> PEP8 style guide
+- custom generator and yield
 - global and local scope 
+- read and write binary files (bytes)
 - data modelling structures: use built in structures until they do not suit the purpose (then use classes)
 - Objects and Classes (OOP)
 - get/set as property decorators @property
