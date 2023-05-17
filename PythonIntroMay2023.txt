@@ -75,7 +75,7 @@ Wednesday
 > functions live in classes, which live in modules which live in packages
 > architecture: modules __init__.py and __name__ == '__main__'
 > PEP8 style guide
-- custom generator and yield
+> custom generator and yield
 > global and local scope 
 > read and write binary files (bytes) - use 'b' isntead of 't'
 > data modelling structures: 
@@ -92,7 +92,7 @@ Wednesday
 > inheritance
 > composition, static and class methods
 > review exercise
-- how to format with certain dp
+> how to format with certain dp
 > debug tools
 - where to go from here:
   https://pynative.com/python-exercises-with-solutions/
