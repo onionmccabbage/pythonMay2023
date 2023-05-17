@@ -70,10 +70,10 @@ Tuesday
 
 Wednesday
 > brief review so far
-- constant - use ENUM 
+> constant - use ENUM 
   https://realpython.com/python-enum/#:~:text=Python%27s%20enum%20module%20provides%20the,related%20constants%20as%20enum%20members.
-- functions live in classes, which live in modules which live in packages
-- architecture: modules __init__.py and __name__ == '__main__'
+> functions live in classes, which live in modules which live in packages
+> architecture: modules __init__.py and __name__ == '__main__'
 > PEP8 style guide
 - custom generator and yield
 > global and local scope 
