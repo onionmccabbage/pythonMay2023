@@ -1,5 +1,6 @@
 # Classes can be useful to encapsulate important features in a data structure
 
+# all classes inherit from object unless we say otherwise
 class Person:
     '''This class encapsulates a persons name (string) and age (int) '''
     # 'self' represents the current instance of the class (like 'this' in Java)
