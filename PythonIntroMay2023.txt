@@ -98,9 +98,6 @@ Wednesday
   the next courses: advanced python then further advanced python
 - end of course feedback
 
-
-
-
 Links
 - Python official site https://python.org
 - PEP8 style guide https://www.python.org/dev/peps/pep-0008/
