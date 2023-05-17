@@ -7,7 +7,7 @@ def writeOutput(t):
     # wt will (over)write existing text
     # xt will only work if the file does NOT exist 
     # (exclusive access)
-    # by default we write text, so the 't' is optional
+    # by default we write text, so the 't' is optional ('b' for bytes)
     fout = open('my_file.txt', 'at') # this is a file acess object
     print( t, file=fout ) # print lets us redirect output to a text file
     fout.close() # good idea to always close our output file
